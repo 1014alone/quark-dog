@@ -1,9 +1,9 @@
-..\obj\memheap.o: ..\RT-THREAD\src\memheap.c
-..\obj\memheap.o: ..\RT-THREAD\include\rthw.h
-..\obj\memheap.o: ..\RT-THREAD\include\rtthread.h
+..\obj\memheap.o: ..\rt-thread\src\memheap.c
+..\obj\memheap.o: ..\rt-thread\include\rthw.h
+..\obj\memheap.o: ..\rt-thread\include\rtthread.h
 ..\obj\memheap.o: ..\USER\rtconfig.h
-..\obj\memheap.o: ..\RT-THREAD\include\rtthread.h
-..\obj\memheap.o: ..\RT-THREAD\include\rtdebug.h
-..\obj\memheap.o: ..\RT-THREAD\include\rtdef.h
+..\obj\memheap.o: ..\rt-thread\include\rtthread.h
+..\obj\memheap.o: ..\rt-thread\include\rtdebug.h
+..\obj\memheap.o: ..\rt-thread\include\rtdef.h
 ..\obj\memheap.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\memheap.o: ..\RT-THREAD\include\rtservice.h
+..\obj\memheap.o: ..\rt-thread\include\rtservice.h

@@ -33,10 +33,9 @@ void rt_hw_board_init()
 {    
 		NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4);
 		SysTick_Config( SystemCoreClock / RT_TICK_PER_SECOND );
+		delay_init();	    
 		uart_init(115200);	 
-		motor_init();
-//		AS5600_Init();
-//		pid_init();
+
     /* Call components board initial (use INIT_BOARD_EXPORT()) */
 #ifdef RT_USING_COMPONENTS_INIT
     rt_components_board_init();

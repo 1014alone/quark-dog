@@ -1,9 +1,9 @@
-..\obj\cpu.o: ..\RT-THREAD\src\cpu.c
-..\obj\cpu.o: ..\RT-THREAD\include\rtthread.h
+..\obj\cpu.o: ..\rt-thread\src\cpu.c
+..\obj\cpu.o: ..\rt-thread\include\rtthread.h
 ..\obj\cpu.o: ..\USER\rtconfig.h
-..\obj\cpu.o: ..\RT-THREAD\include\rtthread.h
-..\obj\cpu.o: ..\RT-THREAD\include\rtdebug.h
-..\obj\cpu.o: ..\RT-THREAD\include\rtdef.h
+..\obj\cpu.o: ..\rt-thread\include\rtthread.h
+..\obj\cpu.o: ..\rt-thread\include\rtdebug.h
+..\obj\cpu.o: ..\rt-thread\include\rtdef.h
 ..\obj\cpu.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\cpu.o: ..\RT-THREAD\include\rtservice.h
-..\obj\cpu.o: ..\RT-THREAD\include\rthw.h
+..\obj\cpu.o: ..\rt-thread\include\rtservice.h
+..\obj\cpu.o: ..\rt-thread\include\rthw.h

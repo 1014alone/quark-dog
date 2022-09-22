@@ -1,9 +1,9 @@
-..\obj\ipc.o: ..\RT-THREAD\src\ipc.c
-..\obj\ipc.o: ..\RT-THREAD\include\rtthread.h
+..\obj\ipc.o: ..\rt-thread\src\ipc.c
+..\obj\ipc.o: ..\rt-thread\include\rtthread.h
 ..\obj\ipc.o: ..\USER\rtconfig.h
-..\obj\ipc.o: ..\RT-THREAD\include\rtthread.h
-..\obj\ipc.o: ..\RT-THREAD\include\rtdebug.h
-..\obj\ipc.o: ..\RT-THREAD\include\rtdef.h
+..\obj\ipc.o: ..\rt-thread\include\rtthread.h
+..\obj\ipc.o: ..\rt-thread\include\rtdebug.h
+..\obj\ipc.o: ..\rt-thread\include\rtdef.h
 ..\obj\ipc.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\ipc.o: ..\RT-THREAD\include\rtservice.h
-..\obj\ipc.o: ..\RT-THREAD\include\rthw.h
+..\obj\ipc.o: ..\rt-thread\include\rtservice.h
+..\obj\ipc.o: ..\rt-thread\include\rthw.h

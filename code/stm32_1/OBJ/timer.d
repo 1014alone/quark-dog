@@ -1,9 +1,9 @@
-..\obj\timer.o: ..\RT-THREAD\src\timer.c
-..\obj\timer.o: ..\RT-THREAD\include\rtthread.h
+..\obj\timer.o: ..\rt-thread\src\timer.c
+..\obj\timer.o: ..\rt-thread\include\rtthread.h
 ..\obj\timer.o: ..\USER\rtconfig.h
-..\obj\timer.o: ..\RT-THREAD\include\rtthread.h
-..\obj\timer.o: ..\RT-THREAD\include\rtdebug.h
-..\obj\timer.o: ..\RT-THREAD\include\rtdef.h
+..\obj\timer.o: ..\rt-thread\include\rtthread.h
+..\obj\timer.o: ..\rt-thread\include\rtdebug.h
+..\obj\timer.o: ..\rt-thread\include\rtdef.h
 ..\obj\timer.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\timer.o: ..\RT-THREAD\include\rtservice.h
-..\obj\timer.o: ..\RT-THREAD\include\rthw.h
+..\obj\timer.o: ..\rt-thread\include\rtservice.h
+..\obj\timer.o: ..\rt-thread\include\rthw.h

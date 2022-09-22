@@ -1,9 +1,9 @@
-..\obj\components.o: ..\RT-THREAD\src\components.c
-..\obj\components.o: ..\RT-THREAD\include\rthw.h
-..\obj\components.o: ..\RT-THREAD\include\rtthread.h
+..\obj\components.o: ..\rt-thread\src\components.c
+..\obj\components.o: ..\rt-thread\include\rthw.h
+..\obj\components.o: ..\rt-thread\include\rtthread.h
 ..\obj\components.o: ..\USER\rtconfig.h
-..\obj\components.o: ..\RT-THREAD\include\rtthread.h
-..\obj\components.o: ..\RT-THREAD\include\rtdebug.h
-..\obj\components.o: ..\RT-THREAD\include\rtdef.h
+..\obj\components.o: ..\rt-thread\include\rtthread.h
+..\obj\components.o: ..\rt-thread\include\rtdebug.h
+..\obj\components.o: ..\rt-thread\include\rtdef.h
 ..\obj\components.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\components.o: ..\RT-THREAD\include\rtservice.h
+..\obj\components.o: ..\rt-thread\include\rtservice.h

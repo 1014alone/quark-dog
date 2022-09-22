@@ -1,9 +1,9 @@
-..\obj\idle.o: ..\RT-THREAD\src\idle.c
-..\obj\idle.o: ..\RT-THREAD\include\rthw.h
-..\obj\idle.o: ..\RT-THREAD\include\rtthread.h
+..\obj\idle.o: ..\rt-thread\src\idle.c
+..\obj\idle.o: ..\rt-thread\include\rthw.h
+..\obj\idle.o: ..\rt-thread\include\rtthread.h
 ..\obj\idle.o: ..\USER\rtconfig.h
-..\obj\idle.o: ..\RT-THREAD\include\rtthread.h
-..\obj\idle.o: ..\RT-THREAD\include\rtdebug.h
-..\obj\idle.o: ..\RT-THREAD\include\rtdef.h
+..\obj\idle.o: ..\rt-thread\include\rtthread.h
+..\obj\idle.o: ..\rt-thread\include\rtdebug.h
+..\obj\idle.o: ..\rt-thread\include\rtdef.h
 ..\obj\idle.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\idle.o: ..\RT-THREAD\include\rtservice.h
+..\obj\idle.o: ..\rt-thread\include\rtservice.h

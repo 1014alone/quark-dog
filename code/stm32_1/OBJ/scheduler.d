@@ -1,9 +1,9 @@
-..\obj\scheduler.o: ..\RT-THREAD\src\scheduler.c
-..\obj\scheduler.o: ..\RT-THREAD\include\rtthread.h
+..\obj\scheduler.o: ..\rt-thread\src\scheduler.c
+..\obj\scheduler.o: ..\rt-thread\include\rtthread.h
 ..\obj\scheduler.o: ..\USER\rtconfig.h
-..\obj\scheduler.o: ..\RT-THREAD\include\rtthread.h
-..\obj\scheduler.o: ..\RT-THREAD\include\rtdebug.h
-..\obj\scheduler.o: ..\RT-THREAD\include\rtdef.h
+..\obj\scheduler.o: ..\rt-thread\include\rtthread.h
+..\obj\scheduler.o: ..\rt-thread\include\rtdebug.h
+..\obj\scheduler.o: ..\rt-thread\include\rtdef.h
 ..\obj\scheduler.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\scheduler.o: ..\RT-THREAD\include\rtservice.h
-..\obj\scheduler.o: ..\RT-THREAD\include\rthw.h
+..\obj\scheduler.o: ..\rt-thread\include\rtservice.h
+..\obj\scheduler.o: ..\rt-thread\include\rthw.h

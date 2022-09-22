@@ -1,9 +1,9 @@
-..\obj\kservice.o: ..\RT-THREAD\src\kservice.c
-..\obj\kservice.o: ..\RT-THREAD\include\rtthread.h
+..\obj\kservice.o: ..\rt-thread\src\kservice.c
+..\obj\kservice.o: ..\rt-thread\include\rtthread.h
 ..\obj\kservice.o: ..\USER\rtconfig.h
-..\obj\kservice.o: ..\RT-THREAD\include\rtthread.h
-..\obj\kservice.o: ..\RT-THREAD\include\rtdebug.h
-..\obj\kservice.o: ..\RT-THREAD\include\rtdef.h
+..\obj\kservice.o: ..\rt-thread\include\rtthread.h
+..\obj\kservice.o: ..\rt-thread\include\rtdebug.h
+..\obj\kservice.o: ..\rt-thread\include\rtdef.h
 ..\obj\kservice.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\kservice.o: ..\RT-THREAD\include\rtservice.h
-..\obj\kservice.o: ..\RT-THREAD\include\rthw.h
+..\obj\kservice.o: ..\rt-thread\include\rtservice.h
+..\obj\kservice.o: ..\rt-thread\include\rthw.h

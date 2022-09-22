@@ -1,0 +1,9 @@
+..\obj\mem.o: ..\RT-THREAD\src\mem.c
+..\obj\mem.o: ..\RT-THREAD\include\rthw.h
+..\obj\mem.o: ..\RT-THREAD\include\rtthread.h
+..\obj\mem.o: ..\USER\rtconfig.h
+..\obj\mem.o: ..\RT-THREAD\include\rtthread.h
+..\obj\mem.o: ..\RT-THREAD\include\rtdebug.h
+..\obj\mem.o: ..\RT-THREAD\include\rtdef.h
+..\obj\mem.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\mem.o: ..\RT-THREAD\include\rtservice.h

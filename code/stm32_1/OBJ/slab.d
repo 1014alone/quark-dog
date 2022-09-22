@@ -1,0 +1,9 @@
+..\obj\slab.o: ..\RT-THREAD\src\slab.c
+..\obj\slab.o: ..\RT-THREAD\include\rthw.h
+..\obj\slab.o: ..\RT-THREAD\include\rtthread.h
+..\obj\slab.o: ..\USER\rtconfig.h
+..\obj\slab.o: ..\RT-THREAD\include\rtthread.h
+..\obj\slab.o: ..\RT-THREAD\include\rtdebug.h
+..\obj\slab.o: ..\RT-THREAD\include\rtdef.h
+..\obj\slab.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\slab.o: ..\RT-THREAD\include\rtservice.h

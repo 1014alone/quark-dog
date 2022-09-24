@@ -1,17 +1,13 @@
-#include "led.h"
-#include "delay.h"
-#include "sys.h"
-#include "usart.h"
-
+#include "board.h"
 
 int main(void)
 {
 	 
-	
+	create_thread();
 	while(1)
 	{
-
-		delay_ms(100);
+		
+		rt_thread_delay(10000);
 	}
 }
 

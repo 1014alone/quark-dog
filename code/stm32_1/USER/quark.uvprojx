@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\HARDWARE\LED;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\STM32F10x_FWLib\inc;..\CORE;..\rt-thread\components\finsh;..\rt-thread\include;..\rt-thread\include\libc</IncludePath>
+              <IncludePath>..\HARDWARE\LED;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\STM32F10x_FWLib\inc;..\CORE;..\rt-thread\components\finsh;..\rt-thread\include;..\rt-thread\include\libc;..\my_rtthread;..\HARDWARE\FOC</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -422,6 +422,16 @@
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\LED\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>motor_init.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\FOC\motor_init.c</FilePath>
+            </File>
+            <File>
+              <FileName>foc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\FOC\foc.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -587,6 +597,16 @@
               <FileName>cpuport.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\rt-thread\libcpu\arm\cortex-m3\cpuport.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>MY_RTTHREAD</GroupName>
+          <Files>
+            <File>
+              <FileName>thread_manage.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\my_rtthread\thread_manage.c</FilePath>
             </File>
           </Files>
         </Group>

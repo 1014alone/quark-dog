@@ -1,16 +1,4 @@
-/*
- * Copyright (c) 2006-2019, RT-Thread Development Team
- *
- * SPDX-License-Identifier: Apache-2.0
- *
- * Change Logs:
- * Date           Author       Notes
- * 2017-07-24     Tanek        the first version
- * 2018-11-12     Ernest Chen  modify copyright
- */
- 
 #include "board.h"
-
 
 #if defined(RT_USING_USER_MAIN) && defined(RT_USING_HEAP)
 #define RT_HEAP_SIZE 2048
@@ -32,9 +20,8 @@ RT_WEAK void *rt_heap_end_get(void)
 void rt_hw_board_init()
 {    
 		NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4);
-		SysTick_Config( SystemCoreClock / RT_TICK_PER_SECOND );
-		delay_init();	    
-		uart_init(115200);	 
+		SysTick_Config( SystemCoreClock / RT_TICK_PER_SECOND );    	 
+		motor_init();
 
     /* Call components board initial (use INIT_BOARD_EXPORT()) */
 #ifdef RT_USING_COMPONENTS_INIT

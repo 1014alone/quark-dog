@@ -30,6 +30,9 @@
 ..\obj\board.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
 ..\obj\board.o: ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 ..\obj\board.o: ..\STM32F10x_FWLib\inc\misc.h
+..\obj\board.o: ..\SYSTEM\usart\usart.h
+..\obj\board.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\board.o: ..\SYSTEM\delay\delay.h
 ..\obj\board.o: ..\rt-thread\include\rthw.h
 ..\obj\board.o: ..\rt-thread\include\rtthread.h
 ..\obj\board.o: ..\USER\rtconfig.h
@@ -38,6 +41,8 @@
 ..\obj\board.o: ..\rt-thread\include\rtdef.h
 ..\obj\board.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\stdarg.h
 ..\obj\board.o: ..\rt-thread\include\rtservice.h
-..\obj\board.o: ..\SYSTEM\usart\usart.h
-..\obj\board.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\board.o: ..\SYSTEM\delay\delay.h
+..\obj\board.o: ..\my_rtthread\thread_manage.h
+..\obj\board.o: ..\HARDWARE\FOC\foc.h
+..\obj\board.o: ..\USER\board.h
+..\obj\board.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\board.o: ..\HARDWARE\FOC\motor_init.h

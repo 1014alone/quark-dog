@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\HARDWARE\LED;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\STM32F10x_FWLib\inc;..\CORE;..\rt-thread\components\finsh;..\rt-thread\include;..\rt-thread\include\libc;..\my_rtthread;..\HARDWARE\FOC</IncludePath>
+              <IncludePath>..\HARDWARE\LED;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\STM32F10x_FWLib\inc;..\CORE;..\rt-thread\components\finsh;..\rt-thread\include;..\rt-thread\include\libc;..\my_rtthread;..\HARDWARE\FOC;..\HARDWARE\AS5600</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -432,6 +432,16 @@
               <FileName>foc.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\FOC\foc.c</FilePath>
+            </File>
+            <File>
+              <FileName>as5600.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\AS5600\as5600.c</FilePath>
+            </File>
+            <File>
+              <FileName>myiic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\AS5600\myiic.c</FilePath>
             </File>
           </Files>
         </Group>

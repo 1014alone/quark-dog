@@ -6,6 +6,8 @@
 "..\obj\led.o"
 "..\obj\motor_init.o"
 "..\obj\foc.o"
+"..\obj\as5600.o"
+"..\obj\myiic.o"
 "..\obj\delay.o"
 "..\obj\sys.o"
 "..\obj\usart.o"

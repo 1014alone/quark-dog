@@ -46,3 +46,4 @@
 ..\obj\main.o: ..\USER\board.h
 ..\obj\main.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\main.o: ..\HARDWARE\FOC\motor_init.h
+..\obj\main.o: ..\HARDWARE\AS5600\as5600.h

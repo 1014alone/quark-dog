@@ -11,6 +11,7 @@
 #include "foc.h"
 #include "math.h"
 #include "motor_init.h"
+#include "as5600.h"
 
 
 extern struct SVPWM 							   svpwm1;

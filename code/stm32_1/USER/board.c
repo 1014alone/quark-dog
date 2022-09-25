@@ -22,6 +22,7 @@ void rt_hw_board_init()
 		NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4);
 		SysTick_Config( SystemCoreClock / RT_TICK_PER_SECOND );    	 
 		motor_init();
+		AS5600_Init();
 
     /* Call components board initial (use INIT_BOARD_EXPORT()) */
 #ifdef RT_USING_COMPONENTS_INIT

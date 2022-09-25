@@ -24,11 +24,11 @@ static void open_loop_test_entry(void* parameter)
 	while(1)
 	{
 		angle = Get_Angle();
-		el_angle = angle*3.1415926*7/180.0+3.1415926/2.0;
+		el_angle = angle*3.1415926*6/180.0-3.1415926/2.0;
 //		el_angle += 0.5;
 //		contrary_park(0,1.2,angle,&alpha_beta_voltage1);
 //		contrary_park(0,1,el_angle,&alpha_beta_voltage2);
-		contrary_park(0,1.5,el_angle,&alpha_beta_voltage3);
+		contrary_park(0,0.9,el_angle,&alpha_beta_voltage3);
 //		foc_svpwm(alpha_beta_voltage1.U_alpha,alpha_beta_voltage1.U_beta,7.3,1999,&svpwm1);
 //		foc_svpwm(alpha_beta_voltage2.U_alpha,alpha_beta_voltage2.U_beta,7.3,1999,&svpwm2);
 		foc_svpwm(alpha_beta_voltage3.U_alpha,alpha_beta_voltage3.U_beta,7.2,1999,&svpwm3);

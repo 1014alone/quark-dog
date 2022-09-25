@@ -265,7 +265,7 @@ I (..\my_rtthread\thread_manage.h)(0x632C41A7)
 I (F:\KEIL5\ARM\ARMCC\include\math.h)(0x60252378)
 I (..\HARDWARE\FOC\motor_init.h)(0x632C532B)
 I (..\HARDWARE\AS5600\as5600.h)(0x632EF288)
-F (..\HARDWARE\AS5600\as5600.c)(0x632F0BA6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\rt-thread\components\finsh -I ..\rt-thread\include -I ..\rt-thread\include\libc -I ..\my_rtthread -I ..\HARDWARE\FOC -I ..\HARDWARE\AS5600-IG:\keil_packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\as5600.o --omf_browse ..\obj\as5600.crf --depend ..\obj\as5600.d)
+F (..\HARDWARE\AS5600\as5600.c)(0x632FE17A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\rt-thread\components\finsh -I ..\rt-thread\include -I ..\rt-thread\include\libc -I ..\my_rtthread -I ..\HARDWARE\FOC -I ..\HARDWARE\AS5600-IG:\keil_packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\as5600.o --omf_browse ..\obj\as5600.crf --depend ..\obj\as5600.d)
 I (..\HARDWARE\AS5600\as5600.h)(0x632EF288)
 I (..\SYSTEM\sys\sys.h)(0x550F951A)
 I (..\USER\stm32f10x.h)(0x4D783CB5)
@@ -743,7 +743,7 @@ I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
 I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
 I (F:\KEIL5\ARM\ARMCC\include\stdarg.h)(0x60252376)
 I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
-F (..\my_rtthread\thread_manage.c)(0x632F0BB0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\rt-thread\components\finsh -I ..\rt-thread\include -I ..\rt-thread\include\libc -I ..\my_rtthread -I ..\HARDWARE\FOC -I ..\HARDWARE\AS5600-IG:\keil_packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\thread_manage.o --omf_browse ..\obj\thread_manage.crf --depend ..\obj\thread_manage.d)
+F (..\my_rtthread\thread_manage.c)(0x632FE18B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\rt-thread\components\finsh -I ..\rt-thread\include -I ..\rt-thread\include\libc -I ..\my_rtthread -I ..\HARDWARE\FOC -I ..\HARDWARE\AS5600-IG:\keil_packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\thread_manage.o --omf_browse ..\obj\thread_manage.crf --depend ..\obj\thread_manage.d)
 I (..\USER\board.h)(0x632E6E72)
 I (..\SYSTEM\sys\sys.h)(0x550F951A)
 I (..\USER\stm32f10x.h)(0x4D783CB5)

@@ -59,15 +59,15 @@ float Get_Angle ( void )
 	
   AS5600_Read_Len ( Slave_Addr, Angle_Hight_Register_Addr, 2, buf );
   temp =( ( buf[0] << 8 ) | buf[1] )/4096.0*360;
-//	if(((pre_angle_data - temp)>100)&is_begin)
-//		circle += 1;
-//	else if(((pre_angle_data - temp)<-100)&is_begin)
-//		circle -= 1;
-//	if(is_begin == 0)
-//		is_begin = 1;
-//	
-//	pre_angle_data = temp;
-//  return temp + 360*circle;
+	if(((pre_angle_data - temp)>100)&is_begin)
+		circle += 1;
+	else if(((pre_angle_data - temp)<-100)&is_begin)
+		circle -= 1;
+	if(is_begin == 0)
+		is_begin = 1;
+	
+	pre_angle_data = temp;
+  return temp + 360*circle;
 	return temp;
 }
 

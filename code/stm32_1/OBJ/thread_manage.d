@@ -46,4 +46,4 @@
 ..\obj\thread_manage.o: ..\USER\board.h
 ..\obj\thread_manage.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\thread_manage.o: ..\HARDWARE\FOC\motor_init.h
-..\obj\thread_manage.o: ..\HARDWARE\AS5600\as5600.h
+..\obj\thread_manage.o: ..\HARDWARE\SPI\spi.h

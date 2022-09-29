@@ -46,4 +46,4 @@
 ..\obj\board.o: ..\USER\board.h
 ..\obj\board.o: F:\KEIL5\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\board.o: ..\HARDWARE\FOC\motor_init.h
-..\obj\board.o: ..\HARDWARE\AS5600\as5600.h
+..\obj\board.o: ..\HARDWARE\SPI\spi.h

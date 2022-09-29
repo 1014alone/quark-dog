@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+E:/quark-project/quark-dog-git/quark-dog/code/esp32/quark-dog/build/CMakeFiles/bootloader
+E:/quark-project/quark-dog-git/quark-dog/code/esp32/quark-dog/build/CMakeFiles/bootloader.rule
+E:/quark-project/quark-dog-git/quark-dog/code/esp32/quark-dog/build/CMakeFiles/bootloader-complete.rule
+E:/quark-project/quark-dog-git/quark-dog/code/esp32/quark-dog/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+E:/quark-project/quark-dog-git/quark-dog/code/esp32/quark-dog/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+E:/quark-project/quark-dog-git/quark-dog/code/esp32/quark-dog/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+E:/quark-project/quark-dog-git/quark-dog/code/esp32/quark-dog/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+E:/quark-project/quark-dog-git/quark-dog/code/esp32/quark-dog/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+E:/quark-project/quark-dog-git/quark-dog/code/esp32/quark-dog/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+E:/quark-project/quark-dog-git/quark-dog/code/esp32/quark-dog/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

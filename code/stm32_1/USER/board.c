@@ -19,11 +19,11 @@ RT_WEAK void *rt_heap_end_get(void)
  */
 void rt_hw_board_init()
 {    
-		NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4);
-		SysTick_Config( SystemCoreClock / RT_TICK_PER_SECOND );    	 
-		motor_init();
-		AS5600_Init();
-
+	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4);
+	SysTick_Config( SystemCoreClock / RT_TICK_PER_SECOND );    	 
+	motor_init();
+	SPI1_Init();
+	SPI_CS_init();
     /* Call components board initial (use INIT_BOARD_EXPORT()) */
 #ifdef RT_USING_COMPONENTS_INIT
     rt_components_board_init();
